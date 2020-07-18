@@ -5,7 +5,7 @@ body {
 
 h2 {
 	display:table;
-	color: #000;
+	color: #000000;
 	background-color:rgba(10,20,255,0.3);
 	padding-top:0.1em;
 	padding-bottom:0.1em;
@@ -21,18 +21,29 @@ h2:before {
 }
 
 p {
-	color: rgb(0,0,255);
+	color: #0000ff;
 	font-family:"Courier New", Courier, monospace;
 }
 
-a {
+a:link {
 	text-decoration:none;
-	font-style:oblique;
+	font-style:normal;
+	color:#0032d2;
 }
 
 a:hover {
-	color:#FFF;
+	text-decoration:normal;
+	font-style:bold;
+	color:#027ff3;
 }
+
+a:visited {
+	text-decoration:line-through;
+	font-style:italic;
+	color:#5b5c5c;
+}
+
+/*a:active {}*/
 
 ::selection {
     background: rgba(10,20,255,0.1);
