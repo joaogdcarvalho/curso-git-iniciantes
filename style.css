@@ -3,6 +3,16 @@ body {
 	margin:1em;
 }
 
+::selection {
+    background: rgba(10,20,255,0.1);
+    color: rgb(0,0,255);
+}
+
+::-moz-selection {
+    background: rgba(10,20,255,0.1);
+    color: rgb(0,0,255);   
+}
+
 h2 {
 	display:table;
 	color: #000000;
@@ -49,12 +59,15 @@ a:active {
 	color:#00d2f7;
 }
 
-::selection {
-    background: rgba(10,20,255,0.1);
-    color: rgb(0,0,255);
-}
-
-::-moz-selection {
-    background: rgba(10,20,255,0.1);
-    color: rgb(0,0,255);   
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
