@@ -13,3 +13,4 @@
 * git push
 * git pull
 * git revert
+* git merge
